@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{770E51A7-BA82-4391-857B-27A110BDE442}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{770E51A7-BA82-4391-857B-27A110BDE442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{6517F060-0805-468F-AABD-35783E1305B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{6517F060-0805-468F-AABD-35783E1305B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{594CEF81-B9AB-4009-8954-E8B5C410C8D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6517F060-0805-468F-AABD-35783E1305B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6517F060-0805-468F-AABD-35783E1305B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6517F060-0805-468F-AABD-35783E1305B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594CEF81-B9AB-4009-8954-E8B5C410C8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594CEF81-B9AB-4009-8954-E8B5C410C8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594CEF81-B9AB-4009-8954-E8B5C410C8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594CEF81-B9AB-4009-8954-E8B5C410C8D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
