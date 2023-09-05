@@ -9,8 +9,9 @@ namespace VisitorPattern.Visitors
 {
     public interface IVisitor
     {
-        string VisitComponentA(ComponentA component);
-        string VisitComponentB(ComponentB component);
+        //default method for not implement everything in concrete class
+        void Visit(ComponentA component) { }
+        void Visit(ComponentB component) { }
 
     }
 }

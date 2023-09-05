@@ -7,13 +7,15 @@ using VisitorPattern.Visitors;
 
 namespace VisitorPattern.Components
 {
-    public class ComponentB : IComponent
+    public class ComponentB : Component
     {
-        public string Item { get; set; } = string.Empty;
+        public string Item { get; set; } = "B";
 
-        public void Accept(IVisitor visitor)
-        {
-            Console.WriteLine(visitor.VisitComponentB(this));
-        }
+        //No need anymore because it is handled in base class
+
+        //public void Accept(IVisitor visitor)
+        //{
+        //   visitor.Visit(this);
+        //}
     }
 }

@@ -9,25 +9,17 @@ namespace VisitorPattern
     {
         static void Main(string[] args)
         {
-            List<IComponent> list = new List<IComponent>();
 
-            list.Add(new ComponentA());
-            list.Add(new ComponentB());
+            var comA = new ComponentA();
+            var comB = new ComponentB();
 
             Visitor1 visitor1 = new();
             Visitor2 visitor2 = new();
 
-            foreach (var item in list)
-            {
-                item.Accept(visitor1);
-            }
+            comA.Accept(visitor1);
+            Console.WriteLine();
+            comB.Accept(visitor2);
 
-            Console.WriteLine( );
-
-            foreach (var item in list)
-            {
-                item.Accept(visitor2);
-            }
         }
     }
 }

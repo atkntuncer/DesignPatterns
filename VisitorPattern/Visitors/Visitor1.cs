@@ -9,16 +9,9 @@ namespace VisitorPattern.Visitors
 {
     public class Visitor1 : IVisitor
     {
-        public string VisitComponentA(ComponentA component)
+        public void Visit(ComponentA component)
         {
-            component.Item = "A1";
-            return component.Item + " + Visitor1";
-        }
-
-        public string VisitComponentB(ComponentB component)
-        {
-            component.Item = "B1";
-            return component.Item + " + Visitor1";
+            Console.WriteLine( component.Item + " Visitor1");
         }
     }
 }
