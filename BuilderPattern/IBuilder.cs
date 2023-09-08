@@ -1,5 +1,6 @@
 ﻿namespace BuilderPattern
 {
+    //Different builders can be created using this interface
     public interface IBuilder
     {
         void Build();
