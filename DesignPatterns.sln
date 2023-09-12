@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{2C8A1EF8-788A-4D96-9FE2-ED22B1F28FAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{8312E290-2BEF-4FCE-81EC-04ABAB116358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{8312E290-2BEF-4FCE-81EC-04ABAB116358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{8EC66B79-120C-4345-AFC7-15C7636B5D43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{8EC66B79-120C-4345-AFC7-15C7636B5D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{DE20A7F9-5704-4E3C-AF6B-4FC0630DAC88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{8EC66B79-120C-4345-AFC7-15C7636B5D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC66B79-120C-4345-AFC7-15C7636B5D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC66B79-120C-4345-AFC7-15C7636B5D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE20A7F9-5704-4E3C-AF6B-4FC0630DAC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE20A7F9-5704-4E3C-AF6B-4FC0630DAC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE20A7F9-5704-4E3C-AF6B-4FC0630DAC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE20A7F9-5704-4E3C-AF6B-4FC0630DAC88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
