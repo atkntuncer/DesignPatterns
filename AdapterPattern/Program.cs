@@ -1,6 +1,6 @@
 ﻿namespace AdapterPattern
 {
-    //Make different objects to collaborate, aka wrapper
+    //Allows different objects to adapt each other, aka wrapper
     internal class Program
     {
         static void Main(string[] args)
